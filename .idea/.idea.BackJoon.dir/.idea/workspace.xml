@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beb879a3-d7cc-4725-a3ef-e07eb993be0d" name="Changes" comment="" />
+    <list default="true" id="beb879a3-d7cc-4725-a3ef-e07eb993be0d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/D_1022_Q_2438.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/D_1022_Q_2438.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -39,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666450547222</updated>
-      <workItem from="1666450551800" duration="329000" />
+      <workItem from="1666450551800" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="[test] First commit Backjoon Study Q_2438 Clear!&#10;&#10;별찍기1">
       <created>1666450635994</created>
@@ -48,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666450635994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[test] First commit Backjoon Study Q_2438 Clear!&#10;&#10;별찍기1">
+      <created>1666450948380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666450948380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
