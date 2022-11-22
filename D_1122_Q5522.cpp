@@ -14,24 +14,18 @@ int main(void)
 
 	// 이거 쓰면 cin과 cout의 묶음을 풀어 순서가 사라진다
 	// 화면에 보이는 순서가 중요하지 않은 알고리즘 풀때만 써야한다
-	cin.tie(0);
-
-	int case_num, sum = 0;
 	
-	cin >> case_num;
+	int score;
 
-	for (int i = 0; i < case_num; i++)
+	int sum = 0;
+
+	for (int i = 0; i < 5; i++)
 	{
-		int num1, num2;
+		cin >> score;
 
-		cin >> num1 >> num2;
-
-		sum += (num1 + num2);
-
-		cout << "Case " << i + 1 << ": " << sum << "\n";
-
-		sum = 0;
+		sum += score;
 	}
 
-	return 0;
+	cout << sum;
+	
 }
