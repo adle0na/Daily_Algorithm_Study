@@ -1,21 +1,20 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-	int cnt;
+	int a, b, cnt;
+
+	char c;
 
 	cin >> cnt;
 
-	string n;
-
 	for (int i = 0; i < cnt; i++)
 	{
-		cin >> n;
+		cin >> a >> c >> b;
 
-		cout << (int)n[0] + (int)n[2] - 96 << "\n";
+		cout << a + b << "\n";
 	}
 }
