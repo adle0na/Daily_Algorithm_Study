@@ -6,21 +6,14 @@ using namespace std;
 int solution(int i, int j, int k) {
     int answer = 0;
     
-    for(int q = i; q <= j; q++)
-    {
-        int p = q;
-        
-        while(1)
-        {
-            if(p == 0)
-                break;
-            
-            if(p%10 == k)
-                answer++;
-            
-            p/=10;
-        }
-    }
+    string numm;
     
+    for(int num = i; num <= j; num++)
+    {
+        numm = to_string(num);
+        
+        for(int idx = 0; idx < numm.size(); idx++)
+            k == numm[idx] - '0' ? answer += 1 : 0;
+    }
     return answer;
 }
