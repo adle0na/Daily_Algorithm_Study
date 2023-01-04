@@ -9,14 +9,14 @@ vector<string> v = {"zero", "one", "two", "three", "four",
 long long solution(string numbers) {
     long long answer = 0;
     
-    while(numbers.size() != 0)
+    int tmp;
+    
+    for(int i = 0; i < v.size(); i++)
     {
-        for(int i = 0; i < v.size(); i++)
-            if(numbers.substr(0, v[i].size()) == v[i])
-            {
-                answer = answer * 10 + i;
-                numbers = numbers.substr(v[i].size());
-            }
+        while ((tmp = numbers.find(v[i])) != string::npos)
+            numbers.replace(tmp, v[i].size(), to_string(i));
     }
+    answer = stoll(numbers);
+    
     return answer;
 }
