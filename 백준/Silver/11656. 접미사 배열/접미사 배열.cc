@@ -1,28 +1,40 @@
 #include <iostream>
 #include <vector>
-#include <string>
 #include <algorithm>
 
 using namespace std;
 
-int main(int argc, char* argv[])
+string word;
+
+vector<string> slicedTexts;
+
+void generateSequence(string word, int length)
 {
-    string s;
-    string temp;
-    vector<string> v;
-
-    cin >> s;
-
-    for(int i = 0; i < s.length(); i++)
+    for (int i = 0; i < length; i++)
     {
-        temp = s.substr(i, s.length() - i);
-        v.push_back(temp);
+        string slicedText = "";
+
+        slicedTexts.push_back(word);
+
+        word.erase(word.begin());
+    }
+}
+
+int main()
+{
+    // 입력 받기
+    cin >> word;
+
+    int length = word.size();
+    // 수열 생성 및 출력
+    generateSequence(word, length);
+
+    sort(slicedTexts.begin(), slicedTexts.end());
+
+    for (int i = 0; i < length; i++)
+    {
+        cout << slicedTexts[i] << "\n";
     }
 
-    sort(v.begin(), v.end());
-
-    for(int i = 0; i < v.size(); i++)
-    {
-        cout << v[i] << "\n";
-    }
+    return 0;
 }
